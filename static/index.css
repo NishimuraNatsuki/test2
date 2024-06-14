@@ -1,0 +1,57 @@
+h1{
+    font-size: xx-large;
+    text-align: center;
+    color: orange;
+}
+
+h2{
+    font-size: xx-large;
+    text-align: center;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+h2#new_lines{
+    font-size: xx-large;
+    text-align: center;
+    color:orange;
+}
+
+
+.form_conf{
+    text-align:center;
+}
+.form_conf form{
+    display:inline-block;
+    height:8px;
+}
+
+.form_conf form input#play{
+    text-size-adjust:auto;
+    font-size: x-large;
+    background-color: white;
+    border-color: orange;
+    border-width: 3px;
+    width:100px;
+    height: 50px;
+    border-radius: 100vh;
+}
+.form_conf form input#reset{
+    text-size-adjust:auto;
+    font-size: x-large;
+    background-color: white;
+    border-color: orange;
+    border-width: 3px;
+    width:100px;
+    height:50px;
+    border-radius: 100vh;
+}
+.form_conf form input#voice{
+    text-size-adjust:auto;
+    font-size: x-large;
+    background-color: white;
+    border-color: orange;
+    border-width: 3px;
+    width:100px;
+    height: 50px;
+    border-radius: 100vh;
+}

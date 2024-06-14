@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+  <!-- あってもなくても動くけど入れといた方がいいメタタグ -->
+  <!-- 文字をutf-8に -->
+    <meta charset="utf-8">
+  <!-- どのデバイスで見ても見え方を一緒にする = レスポンシブデザイン -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="static/index.css" rel="stylesheet" />
+
+  </head>
+  <!-- 文字の表示を真ん中に -->
+  <body class="text-center">
+  <h1>メロスは走らない</h1>
+  <!-- ボタンを押すと、/nextpageに飛ぶ -->
+
+  <div class="form_conf">
+    <form action="/play" method="get">
+      <input id = 'play' type="submit" value='play'>
+    </form>
+    <form action="/reset" method="get">
+      <input id = 'reset' type="submit" value='reset'>
+    </form> 
+    <form action="/voice" method="get">
+      <input id = 'voice' type="submit" value='voice'>
+    </form> 
+  </div>
+
+  <h2 id = 'lines'>{{ lines }}</h2>
+  <h2 id = 'new_lines'>{{ new_lines }}</h2>
+  
+  </body>
+</html>
