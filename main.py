@@ -12,16 +12,17 @@ g.wakachi()
 def top():
     return render_template('index.html')
 
+#play
 @app.route("/play", methods=["GET"])
 def play():
     g.makelines()
     return render_template("index.html", lines = g.lines, new_lines = g.new_lines)
-
+#reset
 @app.route("/reset", methods=["GET"])
 def reset():
     g.reset()
     return render_template("index.html", lines = g.lines, new_lines = g.new_lines)
-
+#voice
 @app.route("/voice", methods=["GET"])
 def voice():
     v.text_to_voice(g.lines+g.new_lines)
